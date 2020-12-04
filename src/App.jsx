@@ -52,7 +52,7 @@ class App extends Component {
             timezone_id: res.data.location.timezone_id,
             localtime: res.data.location.localtime,
           };
-
+          console.log(res);
           this.setState({ data: dataWeather });
         });
       });

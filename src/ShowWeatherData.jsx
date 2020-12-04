@@ -21,9 +21,9 @@ export default function ShowWeatherData(props) {
     <div className="container mt-5">
       <div className="row">
         <div className="col-md-3">
+          {/* <sup>0</sup>C will show degree or can use &deg; */}
           <h2>
-            {temperature}
-            <sup>0</sup>C, {description}
+            {temperature}&deg;, {description}
           </h2>
           <p>
             {" "}

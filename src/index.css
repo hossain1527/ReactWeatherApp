@@ -24,6 +24,20 @@ body {
   color: #fed000;
 }
 
+/* To design weather icon */
+.weather-icon {
+  color: yellow;
+  position: relative;
+  font-size: 35px;
+  animation: sunRotation 5s infinite linear;
+}
+
+@keyframes sunRotation {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 input {
   border: 1px solid white;
   outline: none;

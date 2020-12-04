@@ -10,6 +10,7 @@ export default function Navbar(props) {
       <div className="row text-center mt-3">
         <h1 className="text-align-center pr-5 pb-4 heading">
           Weather Update
+          <i className="material-icons weather-icon pl-2">wb_sunny</i>
           {/* <FontAwesomeIcon
             className="pl-2"
             icon={faCloudSun}
